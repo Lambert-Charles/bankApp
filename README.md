@@ -30,7 +30,9 @@ Where the environment variable $PATH_TO_FX points to your javafx libraries direc
 
 HOW TO USE IT:
 I created a user named Bob for users to be able to play with the app. To log in as Bob, use the following credentials:
+
 login: bob
+
 password: F1rst@User
 
 Bob has withdrawn and deposited money a few times already, you can see all the transactions he’s made.
