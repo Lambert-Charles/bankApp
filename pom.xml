@@ -38,6 +38,47 @@
 				<mainClass>bankApp.BankApp</mainClass>
 			</configuration>
          </plugin>
+		 
+		 <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-shade-plugin</artifactId>
+				<version>3.2.4</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>shade</goal>
+                        </goals>
+                        <configuration>
+                            <shadedArtifactAttached>true</shadedArtifactAttached>
+                            <transformers>
+                                <transformer implementation=
+                                                     "org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
+                                    <mainClass>bankApp.Main</mainClass>
+                                </transformer>
+                            </transformers>
+							
+							    <mainClass>org.openjfx.App</mainClass>
+								<options>
+									<option>--add-opens</option>
+									<option>javafx.controls/com.sun.javafx.scene.control.behavior=com.jfoenix</option>
+									<option>--add-opens</option>
+									<option>javafx.controls/com.sun.javafx.scene.control=com.jfoenix</option>
+								</options>
+							
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+			
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>exec-maven-plugin</artifactId>
+				<version>1.2.1</version>
+				<configuration>
+					<mainClass>bankApp.Main</mainClass>
+				</configuration>
+			</plugin>
+		
       </plugins>
    </build>
    
