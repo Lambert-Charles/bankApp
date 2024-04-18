@@ -95,7 +95,8 @@ class UserLoginPane{
 	private void setTextsFonts(){
 		
     	enterInfoText.setFont(Font.font("Arial", FontWeight.BOLD, 20));
-    	userIDText.setFont(Font.font("Arial", FontWeight.BOLD, 20));    	
+    	userIDText.setFont(Font.font("Arial", FontWeight.BOLD, 20));    
+		userIDNotFoundText.setFont(Font.font("Arial", 11));		
     	userPasswordText.setFont(Font.font("Arial", FontWeight.BOLD, 20));
 		forgotPassword.setFont(Font.font("Arial", FontWeight.BOLD, 15));
     	newUserText.setFont(Font.font("Arial", 15));
