@@ -294,7 +294,7 @@ class AmountWithdrawn{
 	private void displayTransactionOKMessage() {
 		
 		Text dontForgetText = new Text("Here you go. Don't forget your money");
-		dontForgetText.setFont(Font.font(35));
+		dontForgetText.setFont(Font.font(30));
 		
 		pane.getChildren().add(dontForgetText);
 	}

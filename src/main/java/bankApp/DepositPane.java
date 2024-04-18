@@ -202,7 +202,7 @@ class DepositSuccessfullPane{
     	pane.setSpacing(10);
     	
 		successfulDepositText = new Text("Your money was successfully deposited");
-		successfulDepositText.setFont(Font.font(35));
+		successfulDepositText.setFont(Font.font(30));
 		
 		pane.getChildren().add(successfulDepositText);
 		

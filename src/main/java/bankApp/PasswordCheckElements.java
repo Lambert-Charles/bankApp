@@ -57,7 +57,7 @@ public class PasswordCheckElements {
 		shouldHaveLowercase = new Text("Password should have a lowercase letter");
 		shouldHaveUppercase = new Text("Password should have an uppercase letter");
 		shouldHaveDigit = new Text("Password should have a numerical character");
-		shouldHaveSpecialCharacters = new Text("Password should have one of these special characters: @ # $ % ^ & + =");
+		shouldHaveSpecialCharacters = new Text("Password should have one of these: @ # $ % ^ & + =");
 		passwordsDontMatch = new Text("Passwords should match");
 		
 	}

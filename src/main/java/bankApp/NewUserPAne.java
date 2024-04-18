@@ -69,13 +69,19 @@ class NewUserPane{
 		repeatNewPasswordText = new Text("Repeat password : ");
 
 		firstNameField = new TextField();
-		lastNameField = new TextField();
-		userField = new TextField();
+		firstNameField.setPrefColumnCount(25);
 		
+		lastNameField = new TextField();
+		lastNameField.setPrefColumnCount(25);
+		
+		userField = new TextField();
 		userField.setPrefColumnCount(25);
 
 		enterNewPasswordField = new PasswordField();
+		enterNewPasswordField.setPrefColumnCount(25);
+		
 		repeatNewPasswordField = new PasswordField();
+		repeatNewPasswordField.setPrefColumnCount(25);
 		
 		passwordCheckElements = new PasswordCheckElements(enterNewPasswordField, repeatNewPasswordField);
 		
