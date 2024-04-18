@@ -6,19 +6,25 @@ As a way to gain experience with JavaFx and GUIs in general, I developed my own 
 
 Some of the cool features included in the app and thing that I learnt along the way:
 
-minimum password requirements using regex
-MD5 self coded hashing algorithm so that the password are safely stored
-serialize and deserialization to save customers information and transactions
-javafx panes system, buttons, text fields, password fields, hyperlinks etc
-jfoenix hamburger menu
+- minimum password requirements using regex
+- MD5 self coded hashing algorithm so that the password are safely stored
+- serialize and deserialization to save customers information and transactions
+- javafx panes system, buttons, text fields, password fields, hyperlinks etc
+- jfoenix hamburger menu
 
 ---
 
 HOW TO RUN THE APP:
 
 From the maven project’s root folder, run the following commands:
-mvn install exec:java
-or
+
+The first time:
+mvn install
+
+Everytime:
+mvn exec:java
+
+or simply
 mvn javafx:run
 
 If you are not using maven, you can run it with the following command, from the project's root folder: 
