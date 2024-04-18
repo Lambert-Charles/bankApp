@@ -12,7 +12,7 @@ serialize and deserialization to save customers information and transactions
 javafx panes system, buttons, text fields, password fields, hyperlinks etc
 jfoenix hamburger menu
 
-
+---
 
 HOW TO RUN THE APP:
 
@@ -26,7 +26,7 @@ java --module-path $PATH_TO_FX --add-modules javafx.controls bankApp.BankApp
 
 Where the environment variable $PATH_TO_FX points to your javafx libraries directory. (In my case it’s “/usr/lib/jfx/javafx-sdk-22/lib”)
 
-
+---
 
 HOW TO USE IT:
 I created a user named Bob for users to be able to play with the app. To log in as Bob, use the following credentials:
